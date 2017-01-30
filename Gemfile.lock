@@ -43,8 +43,6 @@ GEM
     byebug (9.0.6)
     concurrent-ruby (1.0.4)
     erubis (2.7.0)
-    faraday (0.11.0)
-      multipart-post (>= 1.2, < 3)
     ffi (1.9.17)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
@@ -62,7 +60,6 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
-    multipart-post (2.0.0)
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
@@ -123,7 +120,6 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  faraday
   listen (~> 3.0.5)
   puma (~> 3.0)
   rails (~> 5.0.1)
