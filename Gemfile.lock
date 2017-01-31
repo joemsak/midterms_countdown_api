@@ -64,8 +64,6 @@ GEM
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     pg (0.19.0)
-    postgresql (1.0.0)
-      pg
     puma (3.7.0)
     rack (2.0.1)
     rack-cors (0.4.0)
@@ -124,13 +122,16 @@ PLATFORMS
 DEPENDENCIES
   byebug
   listen (~> 3.0.5)
-  postgresql
+  pg
   puma (~> 3.0)
   rack-cors
   rails (~> 5.0.1)
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.4
