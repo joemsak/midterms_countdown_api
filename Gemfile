@@ -13,6 +13,7 @@ gem 'rack-cors'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'dotenv'
 end
 
 group :development do
