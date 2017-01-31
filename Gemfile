@@ -10,10 +10,12 @@ gem 'rails', '~> 5.0.1'
 gem 'pg'
 gem 'puma', '~> 3.0'
 gem 'rack-cors'
+gem 'geocoder'
+gem 'countries', require: 'countries/global'
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'dotenv'
+  gem 'dotenv-rails'
 end
 
 group :development do

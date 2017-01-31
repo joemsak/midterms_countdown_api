@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resource :response, only: :show
+  resources :local_election_links, only: :index
 end
